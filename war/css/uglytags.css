@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.formbox{
+	margin: 0px 0px 15px;
+	padding: 0px;
+}
+.form_box p{
+	float:left;
+	width:620px;
+}
+.alltags{
+	font-size: 0.8em;
+	background: #FFF;
+	color: #666;
+	line-height: 1.6em;
+	padding: 0px 0px 0px px;
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #666;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #666;
+	width: 273px;
+	height: 282px;
+	resize: none;
+	float:left;
+	overflow:auto;
+}
+.seltags{
+	font-size: 0.8em;
+	background: #FFF;
+	color: #666;
+	line-height: 1.6em;
+	padding: 0px 0px 0px 5px;
+	margin-right: 10px;
+	border-top: 1px solid #666;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #666;
+	width: 273px;
+	height: 282px;
+	resize: none;
+	float:right;
+	overflow:auto;
+}
+.form h3
+{
+	margin: 0px;
+	padding: 0px;
+	color: #666666;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+.form h6{
+	font-size: 0.8em;
+	color: #666666;
+	margin-bottom: 5px;
+}
+.tagsbox
+{
+	margin: 0px 5px 2px;
+	padding: 0px 3px 0px 3px;
+}
+.tagsbox a
+{
+	padding: 1px 2px 1px 2px;
+	margin: 0px 5px 0px 1px;
+	text-decoration: none;
+	font-size:12px;
+	line-height:21px;
+	color:#6272a5; 
+	letter-spacing:0px;
+}
+.tagsbox a:hover
+{
+	color:#FF0000;
+	background-color:#CCCCCC;
+	text-decoration:underline;
+}/* CSS Document */
+

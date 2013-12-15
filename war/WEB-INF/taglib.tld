@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+    version="2.1">
+     
+    <display-name>My Custom Functions</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>custom</short-name>
+    <uri>gigs.engine.event.user.custom</uri>
+     
+    <function>
+        <name>getPosterName</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getPosterName(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getPostEvent</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>gigs.engine.event.user.Event getPosterName(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+	<function>
+        <name>getPostEventID</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>int getPostEventID(gigs.engine.event.user.Post)</function-signature>
+    </function> 
+    
+    <function>
+        <name>getPostEventName</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getPostEventName(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getImageURL</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>java.net.URL getImageURL(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getProfileImageURL</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>java.net.URL getProfileImageURL(gigs.engine.event.user.User)</function-signature>
+    </function>
+    
+    <function>
+        <name>isImagePost</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>boolean isImagePost(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getPostImage</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>java.net.URL getPostImage(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getText</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getText(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getTime</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getTime(gigs.engine.event.user.EventTime)</function-signature>
+    </function>
+    
+    <function>
+        <name>isAttendPost</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>boolean isAttendPost(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>isFollowPost</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>boolean isFollowPost(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getProfileImage</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getProfileImage(gigs.engine.event.user.User)</function-signature>
+    </function>
+    
+    <function>
+        <name>getPosterProfileImage</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getPosterProfileImage(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getVenue</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>gigs.engine.event.user.Venue getVenue(gigs.engine.event.user.Event)</function-signature>
+    </function>
+    
+    <function>
+        <name>getVenueName</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getVenue(gigs.engine.event.user.Event)</function-signature>
+    </function>
+    
+    <function>
+        <name>getFollowingName</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getFollowingName(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getFollowerName</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getFollowerName(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getAttenderName</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getAttenderName(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getAttendState</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>String getAttendState(gigs.engine.event.user.Post)</function-signature>
+    </function>
+    
+    <function>
+        <name>getEventPoster</name>
+        <function-class>gigs.engine.event.user.custom.Functions</function-class>
+        <function-signature>java.net.URL getEventPoster(gigs.engine.event.user.Event)</function-signature>
+    </function>
+</taglib>
